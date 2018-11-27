@@ -1,0 +1,27 @@
+{
+  "name": "node-s3-example",
+  "version": "1.0.0",
+  "description": "Example implementation of NodeJS and Amazon Simple Storage Service  (Amazon S3)",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maclisowski/node-s3-example.git"
+  },
+  "author": "Maciej Lisowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maclisowski/node-s3-example/issues"
+  },
+  "homepage": "https://github.com/maclisowski/node-s3-example#readme",
+  "dependencies": {
+    "aws-sdk": "^2.363.0",
+    "dotenv": "^6.1.0",
+    "sharp": "^0.21.0"
+  }
+}
